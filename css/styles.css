@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Sansita&display=swap');
+
+/* **************************************************************global style rules */
+body{
+    background-color:  rgb(84, 61, 106);
+    color: rgb(39, 15, 46);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 2rem;
+    height: 100%;
+    background-image: url(/images/moraccan-dark-flower_tiny.png); 
+    background-repeat: repeat;
+   
+}
+
+
+.g-navbar1{
+    display:flex;
+    color: rgb(237, 233, 242);
+    padding-top: 20px;
+}
+
+.g-link{
+    padding:20px;
+    padding-left:30px;
+    color: rgb(190, 197, 237);
+}
+
+
+.g-link:hover{
+    color: rgb(158, 171, 240);
+    
+ }
+
+.g-dropdown{
+    display: inline-block;
+    position:relative;
+    color: rgb(158, 171, 240);
+    
+}
+
+.g-projectList{
+    display: none;
+    position: absolute;
+    min-width: 275px;
+    background-color: rgb(218, 221, 244);
+
+}
+
+.g-projectList a {
+    color: rgb(125, 144, 241);
+    padding: 15px;
+    display: block;
+}
+
+.g-projectList a:hover {
+   
+    color: rgb(158, 171, 240);
+
+}
+
+.g-dropdown:hover .g-projectList {
+    display: block;
+    color: rgb(158, 171, 240);
+}
+
+
+.g-flex{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+
+}
+
+header{
+    font-size: 7rem;
+    font-family: 'Sansita', sans-serif;
+    padding-top: 20px;
+    color: rgb(190, 197, 237);
+    padding-bottom: 20px;
+    padding-left:30px;
+}
+
+main{
+    width:100%;
+    display: flex;
+    font-family: 'Sansita', sans-serif;
+    color:rgb(55, 53, 101);
+    background-color:rgb(199, 178, 218);
+    justify-content: space-between;
+    background-image: url(/images/45degree_fabric_tiny.png); 
+    background-repeat: repeat;
+
+}
+
+
+footer{
+    display: flex;
+    color: rgb(237, 233, 242);
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.g-social{
+    padding-right: 20px;
+    padding-bottom: 20px;;
+}
+
+dt{
+    font-weight: 600;
+}
+
+.title{
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+/* *****************************************************************page/section home style rules */
+
+#p-home #s-sidebarPhoto{
+    padding-top: 5px;;
+    align-self: center;
+}
+#p-home #s-sidebarPhoto .headshot{
+    border-radius:50%;
+    padding-right: 40px;
+}
+
+#p-home #s-centerPanel{
+    max-width: 50%;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 20px;
+    color:rgb(55, 53, 101);
+    flex-wrap: wrap;
+}
+
+/* ***********************************************************************page/section resume styles */
+#p-resume #s-resumePanel{
+    padding-left: 50px;
+    padding-right: 100px;
+    padding-top: 40px;
+    padding-bottom:30px;
+}
+
+#p-resume .header1{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+#p-resume .header2{
+    padding-top: 15px;
+    font-weight: 600;
+}
+
+#p-resume #s-resumePanel .contactflex{
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    padding-top:20px;
+}
+
+#p-resume #s-resumePanel .experience{
+    padding-top: 20px;
+}
+#p-resume #s-resumePanel .regular{
+    font-weight: 400;
+}
+
+#p-resume #s-resumePanel .certificates dt {
+    font-weight: 600;
+}
+ 
+#p-resume #s-resumePanel .community dt{
+    font-weight: 600;
+}
+
+#p-resume #s-resumeSidebar{
+    width: 20%;
+    padding-right: 30px;
+    padding-top: 40px;
+}
+
+#p-resume #s-resumeSidebar .skill-thumbnail{
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-right:10px;
+}
+
+/* **************************************************************************page/section Web Projects */
+
+
+#p-webProject #s-sidebarTestimontials{
+    display:flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-top: 20px;
+
+}  
+
+#p-webProject #s-sidebarTestimontials .testimonials{
+    font-size: 3rem;
+    
+}
+
+#p-webProject #s-sidebarTestimontials .quotes{
+    font-size: 1.5rem;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+#p-webProject #s-sidebarTestimontials .author{
+    font-size: 1rem;
+}
+
+#p-webProject #s-webProjectFlex{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    padding-top: 20px;
+   
+
+}
+
+#p-webProject #s-webProjectFlex .projectInfo{
+    display:flex;
+    font-size: 1.25rem;
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 550px;
+}
+
+
+#p-webProject #s-webProjectFlex .round-img{
+    border-radius: 15%;
+    margin-right: 20px;
+}
+
+/* ***********************************************************************page/ section Coding Projects  */
+
+#p-codeProject #s-codeProjectFlex{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#p-codeProject #s-codeProjectFlex .projectInfo{
+    display:flex;
+    font-size: 1.25rem;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-right: 30px;
+    width: 400px;
+}
+
+#p-codeProject #s-codeProjectFlex .round-img{
+    border-radius: 15%;
+    margin-right: 20px;
+}
+
+#p-codeProject #s-sidebarCoderImg{
+    margin-right: 40px;
+    margin-top: 40px;
+}  
+#p-codeProject #s-sidebarCoderImg .coder{
+    border-radius: 10%;
+    border-color: rgb(34, 30, 36);
+    border-width: 3px;
+}
+
+
+/* **********************************************************************************Media Queries */
+
+@media screen and (max-width:850px){
+    main{
+        flex-direction: column;
+    
+    }
+
+    #p-home #s-centerPanel{
+        max-width: 100%;
+        padding-left: 40px;
+        padding-top: 20px;
+        padding-right: 20px;
+        color:rgb(39, 15, 46);
+        flex-wrap: wrap;
+    }
+    
+    #p-resume #s-resumeSidebar{
+        display:flex;
+        width:100%;
+        padding-left:10px;
+        padding-right: 20px;
+        padding-top: 40px;
+        flex-wrap:wrap;
+        justify-content: center;
+        
+    }
+
+    #p-resume #s-resumeSidebar.skill-thumbnail{
+        margin-bottom: 10px;;
+        margin-right:10px;
+    }
+
+  
+    
+    #p-webProject #s-webProjectFlex .projectInfo{
+        font-size: 1.5rem;
+        padding-top: 20px;
+        margin-left: 20px;
+        margin-right:20px
+    }
+
+    #p-webProject #s-sidebarTestimontials{
+      padding-left: 20px;
+    }  
+
+    #p-codeProject #s-codeProjectFlex .projectInfo{
+        display:flex;
+        font-size: 1.5rem;
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 90%;
+    }
+
+    #p-codeProject #s-sidebarCoderImg{
+        align-self: center;
+    }
+}
+
+@media screen and (max-width:600px){
+    .g-link{
+        padding:20px;
+        padding-left:10px;
+    }
+
+    .g-projectList{
+        display: none;
+        position: absolute;
+        font-size: 1rem;
+        font-weight: 600;
+        max-width: 100px;
+        background-color: rgb(218, 221, 244);
+    }
+    
+
+    #p-webProject #s-webProjectFlex .projectInfo{
+        display:flex;
+        flex-direction: column;
+        font-size: 1.25rem;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        width: 400px;
+    }
+    
+    #p-codeProject #s-codeProjectFlex .projectInfo{
+        display:flex;
+        flex-direction: column;
+        margin-left: 40px;
+        width: 100%;
+    }
+}
