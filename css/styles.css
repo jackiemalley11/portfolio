@@ -339,6 +339,8 @@ dt{
     .g-link{
         padding:20px;
         padding-left:10px;
+        font-size: 1rem;
+        font-weight: 600;
     }
 
     .g-projectList{
