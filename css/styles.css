@@ -7,7 +7,7 @@ body{
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 2rem;
     height: 100%;
-    background-image: url(../images/45degree_fabric_tiny.png); 
+    background-image: url("../images/45degree_fabric_tiny.png"); 
     background-repeat: repeat;
    
 }
@@ -87,7 +87,7 @@ main{
     color:rgb(55, 53, 101);
     background-color:rgb(199, 178, 218);
     justify-content: space-between;
-    background-image: url(../images/45degree_fabric_tiny.png); 
+    background-image: url("../images/45degree_fabric_tiny.png"); 
     background-repeat: repeat;
 
 }
