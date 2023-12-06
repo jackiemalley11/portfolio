@@ -339,8 +339,6 @@ dt{
     .g-link{
         padding:20px;
         padding-left:10px;
-        font-size: 1rem;
-        font-weight: 600;
     }
 
     .g-projectList{
@@ -368,5 +366,12 @@ dt{
         flex-direction: column;
         margin-left: 40px;
         width: 100%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .g-link{
+       font-size: 1rem;
+       font-weight: 600;
     }
 }
