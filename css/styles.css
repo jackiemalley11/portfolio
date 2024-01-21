@@ -422,6 +422,7 @@ dt{
         header{
             text-align: center;
             padding-left: 0%;
+            font-size: 2.5rem;
         }
 
         .g-navbar1{
@@ -433,6 +434,24 @@ dt{
             text-align: center;
         }
 
+        #p-resume .header1{
+            font-size: 1.5rem;
+            
+        }
+
+        #p-resume #s-resumePanel{
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 40px;
+            padding-bottom:30px;
+            font-size: 1.25rem;
+        }
+
+        #p-home #s-centerPanel{
+            font-size: 1.25rem;
+        }
+       
+        
      
     
 }
