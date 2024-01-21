@@ -224,6 +224,7 @@ dt{
     flex-wrap: wrap;
     padding-bottom: 20px;
     padding-top: 20px;
+    padding-right:20px;
    
 
 }
@@ -233,6 +234,7 @@ dt{
     font-size: 1.25rem;
     padding-left: 20px;
     padding-top: 20px;
+    padding-right: 20px;
 }
 
 
@@ -244,7 +246,7 @@ dt{
 #p-webProject #s-webProjectFlex .coming{
     font-size: 2rem;
     margin-top: 40px;
-    margin-left:20px;
+    padding-left: 20px;
 }
 
 /* ***********************************************************************page/ section Coding Projects  */
